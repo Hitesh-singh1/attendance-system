@@ -1,6 +1,6 @@
 // Demo credentials; real deployments need server-side authentication.
-const ADMIN_ID = 'admin';
-const ADMIN_PASSWORD = 'Admin@123';
+const ADMIN_ID = 'Riya';
+const ADMIN_PASSWORD = 'Riya@123';
 const byId = id => document.getElementById(id);
 
 function setAuthenticated(isAuthenticated) {
