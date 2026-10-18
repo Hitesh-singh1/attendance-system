@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f7fb">
+  <title>My Attendance | Campusly</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/theme.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <!-- Login screen shown until the student enters both required fields. -->
+  <section class="login-screen" id="loginScreen" aria-label="Student login">
+    <div class="login-brand"><span class="brand-mark">C</span> campusly</div>
+    <div class="login-layout login-layout--form-only"><form class="login-card" id="loginForm"><div class="login-card-icon">✦</div><div class="eyebrow">STUDENT PORTAL</div><h2>Welcome back</h2><p class="login-subtitle">Sign in to view your attendance dashboard.</p><label for="loginRoll">Login ID</label><div class="input-wrap"><span>◉</span><input id="loginRoll" name="roll" value="student01" autocomplete="username" required></div><label for="loginPassword">Password</label><div class="input-wrap"><span>⌑</span><input id="loginPassword" name="password" type="password" value="Campus@101" autocomplete="current-password" required><button type="button" id="togglePassword" aria-label="Show password">◉</button></div><div class="credential-hint"><span>12 STUDENT ACCOUNTS</span><strong>See README for all login details</strong></div><div class="login-options"><label class="remember"><input type="checkbox" checked> Remember me</label><a href="mailto:registrar@example.edu">Need help?</a></div><button class="login-submit" id="loginSubmit" type="submit">Enter your dashboard <span>↗</span></button><div class="login-error" id="loginError" role="alert" hidden>Check your Login ID and password, then try again.</div><div class="login-error" id="dataLoadNotice" role="alert" hidden></div><a class="admin-entry" href="admin.html">Administrator login <span>→</span></a><small class="login-disclaimer">This local sign-in does not connect to a college account.</small></form>
+    </div>
+    <div class="login-bottom"><span>© 2025 Campusly student portal</span><span>Made for your next milestone <b>✳</b></span></div>
+  </section>
+  <div class="app-shell">
+    <main class="main-content" id="overview">
+      <!-- Main header and section navigation. -->
+      <header class="topbar">
+        <a class="brand" href="#overview" aria-label="Campusly home"><span class="brand-mark">C</span><span>campusly</span></a>
+        <nav class="home-nav" aria-label="Home navigation"><a class="home-link active" href="#overview">Home</a><a class="home-link" href="subjects.html">Subjects</a><a class="home-link" href="history.html">History</a><a class="home-link" href="planner.html">Planner</a></nav>
+        <div class="topbar-right"><span class="term-pill"><span class="live-dot"></span> Current semester</span><a class="avatar profile-link" href="profile.html" id="topAvatar" aria-label="Open student details" title="Student details">—</a><button class="logout-button" id="logoutButton">Log out</button></div>
+      </header>
+
+      <div class="page-wrap">
+        <!-- Welcome message and export action. -->
+        <section class="welcome-row">
+          <div><div class="eyebrow" id="todayDate"></div><h1>Welcome, <span id="welcomeName">there</span> <span class="wave">✦</span></h1><p>Here’s how you’re showing up this semester.</p></div>
+          <button class="button button-light" id="downloadButton"><span>↓</span> Download report</button>
+        </section>
+
+        <!-- Student identity and academic details. -->
+        <section class="student-strip" aria-label="Student details">
+          <div class="student-avatar" id="studentAvatar">—</div><div class="student-main"><strong id="studentFullName">Student name unavailable</strong><span id="studentCourse">Course details unavailable</span></div>
+          <div class="student-detail"><span>ROLL NUMBER</span><strong id="rollNumber">Not available</strong></div><div class="student-detail"><span>YEAR & SEMESTER</span><strong id="yearSemester">Not available</strong></div><div class="student-detail"><span>DIVISION</span><strong id="division">—</strong></div>
+          <span class="sample-badge">DEMO DATA</span>
+        </section>
+
+        <!-- Overall attendance percentage and class totals. -->
+        <section class="section-heading"><div><div class="eyebrow">YOUR ATTENDANCE</div><h2>Semester at a glance</h2></div><span class="updated-label"><span class="live-dot"></span> Updated just now</span></section>
+        <section class="overview-grid" aria-label="Attendance overview">
+          <article class="attendance-card"><div class="card-topline"><span>Overall attendance</span><span class="circle-icon blue-icon">◉</span></div><div class="overall-number"><strong id="overallPercent">—</strong><span class="target-chip">Target 75%</span></div><div class="progress-track overall-track"><div class="progress-fill" id="overallProgress"></div><span class="target-marker" aria-hidden="true"></span></div><div class="progress-caption"><span id="overallStatus">Calculating…</span><span id="overallTargetText">75% target</span></div><div class="overall-foot"><span class="foot-icon">↗</span><span id="overallMessage">Your semester summary is ready.</span></div></article>
+          <article class="metric-card"><div class="metric-icon mint-icon">▣</div><span class="metric-label">Classes conducted</span><strong class="metric-number" id="totalClasses">0</strong><span class="metric-sub">Across all subjects</span><div class="metric-decoration mint-decoration"></div></article>
+          <article class="metric-card"><div class="metric-icon lavender-icon">✓</div><span class="metric-label">Classes attended</span><strong class="metric-number" id="attendedClasses">0</strong><span class="metric-sub">You showed up — nice work</span><div class="metric-decoration lavender-decoration"></div></article>
+          <article class="metric-card"><div class="metric-icon peach-icon">↘</div><span class="metric-label">Classes missed</span><strong class="metric-number" id="missedClasses">0</strong><span class="metric-sub">Room to make it up</span><div class="metric-decoration peach-decoration"></div></article>
+        </section>
+
+        <!-- Subject cards are generated from the subject data in script.js. -->
+        <section class="section-heading subjects-heading" id="subjects"><div><div class="eyebrow">SUBJECT BREAKDOWN</div><h2>Your subjects <span class="count-badge" id="subjectCount">0</span></h2></div><a class="text-link" href="#history">View attendance history <span>→</span></a></section>
+        <section class="subject-grid" id="subjectGrid" aria-live="polite"></section>
+
+        <!-- Filterable history and the attendance recovery calculator. -->
+        <section class="lower-grid">
+          <article class="panel history-panel" id="history">
+            <div class="panel-heading"><div><div class="eyebrow">RECENT ACTIVITY</div><h2>Attendance history</h2></div><a class="text-link" href="#history" id="clearFilters">Reset <span>↻</span></a></div>
+            <div class="filter-row"><label class="select-wrap"><span class="sr-only">Filter by subject</span><select id="subjectFilter"><option value="all">All subjects</option></select><span>⌄</span></label><label class="select-wrap"><span class="sr-only">Filter by attendance status</span><select id="statusFilter"><option value="all">All statuses</option><option value="present">Present</option><option value="absent">Absent</option></select><span>⌄</span></label><span class="record-count" id="recordCount"></span></div>
+            <div class="history-table-wrap"><table class="history-table"><thead><tr><th>DATE</th><th>SUBJECT</th><th>STATUS</th></tr></thead><tbody id="historyBody"></tbody></table><div class="empty-state" id="emptyHistory" hidden>No attendance records match these filters.</div></div>
+            <div class="table-footer"><span id="historySummary"></span><button class="button button-quiet" id="showMoreButton">Show more <span>⌄</span></button></div>
+          </article>
+
+          <article class="panel planner-panel" id="calculator">
+            <div class="planner-title"><span class="planner-icon">✳</span><div><div class="eyebrow">PLAN YOUR COMEBACK</div><h2>Attendance planner</h2></div></div>
+            <p class="planner-description">See how many classes you need to attend in a row to reach your target.</p>
+            <label class="field-label" for="calculatorSubject">Choose a subject</label><div class="select-wrap planner-select"><select id="calculatorSubject"><option value="overall">Overall attendance</option></select><span>⌄</span></div>
+            <div class="planner-result" id="plannerResult" aria-live="polite"><div class="result-number" id="requiredClasses">—</div><div><strong id="resultTitle">Choose a subject</strong><p id="resultDescription">Your plan will appear here.</p></div></div>
+            <div class="target-note"><span>◎</span><span>Minimum attendance target: <strong>75%</strong></span></div>
+            <div class="planner-footnote">Assumes every upcoming class is attended. Check your college policy for subject-specific rules.</div>
+          </article>
+        </section>
+        <footer class="page-footer"><span>Campusly student portal</span><span>Need to correct a record? <a href="mailto:attendance@example.edu">Contact your department</a></span></footer>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
+
+
+
+
+

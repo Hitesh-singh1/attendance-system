@@ -1,0 +1,4536 @@
+{
+  "subjects": [
+    {
+      "id": "dsa",
+      "name": "Data Structures & Algorithms",
+      "code": "CS501"
+    },
+    {
+      "id": "dbms",
+      "name": "Database Management Systems",
+      "code": "CS502"
+    },
+    {
+      "id": "os",
+      "name": "Operating Systems",
+      "code": "CS503"
+    },
+    {
+      "id": "cn",
+      "name": "Computer Networks",
+      "code": "CS504"
+    },
+    {
+      "id": "math",
+      "name": "Engineering Mathematics III",
+      "code": "MA501"
+    },
+    {
+      "id": "se",
+      "name": "Software Engineering",
+      "code": "CS505"
+    }
+  ],
+  "students": [
+    {
+      "loginId": "student01",
+      "password": "Campus@101",
+      "profile": {
+        "name": "Aarav Sharma",
+        "rollNumber": "CS23-041",
+        "course": "B.Tech · Computer Science",
+        "year": "3rd year",
+        "semester": "Semester 5",
+        "division": "A",
+        "target": 75
+      },
+      "attendanceRecords": [
+        {
+          "date": "2025-09-01",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-03",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-05",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-08",
+          "subjectId": "dsa",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-10",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-12",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-15",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-17",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-19",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-22",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-24",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-26",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-01",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-03",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-05",
+          "subjectId": "dbms",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-08",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-10",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-12",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-15",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-17",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-19",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-22",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-24",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-26",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-01",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-03",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-05",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-08",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-10",
+          "subjectId": "os",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-12",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-15",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-17",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-19",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-22",
+          "subjectId": "os",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-24",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-26",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-01",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-03",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-05",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-08",
+          "subjectId": "cn",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-10",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-12",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-15",
+          "subjectId": "cn",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-17",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-19",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-22",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-24",
+          "subjectId": "cn",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-26",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-01",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-03",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-05",
+          "subjectId": "math",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-08",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-10",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-12",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-15",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-17",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-19",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-22",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-24",
+          "subjectId": "math",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-26",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-01",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-03",
+          "subjectId": "se",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-05",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-08",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-10",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-12",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-15",
+          "subjectId": "se",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-17",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-19",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-22",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-24",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-26",
+          "subjectId": "se",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "loginId": "student02",
+      "password": "Campus@102",
+      "profile": {
+        "name": "Isha Patel",
+        "rollNumber": "CS23-042",
+        "course": "B.Tech · Computer Science",
+        "year": "3rd year",
+        "semester": "Semester 5",
+        "division": "B",
+        "target": 75
+      },
+      "attendanceRecords": [
+        {
+          "date": "2025-09-01",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-03",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-05",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-08",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-10",
+          "subjectId": "dsa",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-12",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-15",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-17",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-19",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-22",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-24",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-26",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-01",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-03",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-05",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-08",
+          "subjectId": "dbms",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-10",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-12",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-15",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-17",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-19",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-22",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-24",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-26",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-01",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-03",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-05",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-08",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-10",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-12",
+          "subjectId": "os",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-15",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-17",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-19",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-22",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-24",
+          "subjectId": "os",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-26",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-01",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-03",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-05",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-08",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-10",
+          "subjectId": "cn",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-12",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-15",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-17",
+          "subjectId": "cn",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-19",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-22",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-24",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-26",
+          "subjectId": "cn",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-01",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-03",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-05",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-08",
+          "subjectId": "math",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-10",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-12",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-15",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-17",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-19",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-22",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-24",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-26",
+          "subjectId": "math",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-01",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-03",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-05",
+          "subjectId": "se",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-08",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-10",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-12",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-15",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-17",
+          "subjectId": "se",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-19",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-22",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-24",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-26",
+          "subjectId": "se",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "loginId": "student03",
+      "password": "Campus@103",
+      "profile": {
+        "name": "Kabir Verma",
+        "rollNumber": "CS23-043",
+        "course": "B.Tech · Computer Science",
+        "year": "3rd year",
+        "semester": "Semester 5",
+        "division": "C",
+        "target": 75
+      },
+      "attendanceRecords": [
+        {
+          "date": "2025-09-01",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-03",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-05",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-08",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-10",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-12",
+          "subjectId": "dsa",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-15",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-17",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-19",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-22",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-24",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-26",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-01",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-03",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-05",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-08",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-10",
+          "subjectId": "dbms",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-12",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-15",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-17",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-19",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-22",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-24",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-26",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-01",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-03",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-05",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-08",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-10",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-12",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-15",
+          "subjectId": "os",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-17",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-19",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-22",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-24",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-26",
+          "subjectId": "os",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-01",
+          "subjectId": "cn",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-03",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-05",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-08",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-10",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-12",
+          "subjectId": "cn",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-15",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-17",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-19",
+          "subjectId": "cn",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-22",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-24",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-26",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-01",
+          "subjectId": "math",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-03",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-05",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-08",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-10",
+          "subjectId": "math",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-12",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-15",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-17",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-19",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-22",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-24",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-26",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-01",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-03",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-05",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-08",
+          "subjectId": "se",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-10",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-12",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-15",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-17",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-19",
+          "subjectId": "se",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-22",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-24",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-26",
+          "subjectId": "se",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "loginId": "student04",
+      "password": "Campus@104",
+      "profile": {
+        "name": "Ananya Singh",
+        "rollNumber": "CS23-044",
+        "course": "B.Tech · Computer Science",
+        "year": "3rd year",
+        "semester": "Semester 5",
+        "division": "A",
+        "target": 75
+      },
+      "attendanceRecords": [
+        {
+          "date": "2025-09-01",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-03",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-05",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-08",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-10",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-12",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-15",
+          "subjectId": "dsa",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-17",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-19",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-22",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-24",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-26",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-01",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-03",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-05",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-08",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-10",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-12",
+          "subjectId": "dbms",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-15",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-17",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-19",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-22",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-24",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-26",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-01",
+          "subjectId": "os",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-03",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-05",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-08",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-10",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-12",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-15",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-17",
+          "subjectId": "os",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-19",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-22",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-24",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-26",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-01",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-03",
+          "subjectId": "cn",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-05",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-08",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-10",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-12",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-15",
+          "subjectId": "cn",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-17",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-19",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-22",
+          "subjectId": "cn",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-24",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-26",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-01",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-03",
+          "subjectId": "math",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-05",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-08",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-10",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-12",
+          "subjectId": "math",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-15",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-17",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-19",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-22",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-24",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-26",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-01",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-03",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-05",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-08",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-10",
+          "subjectId": "se",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-12",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-15",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-17",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-19",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-22",
+          "subjectId": "se",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-24",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-26",
+          "subjectId": "se",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "loginId": "student05",
+      "password": "Campus@105",
+      "profile": {
+        "name": "Vihaan Rao",
+        "rollNumber": "CS23-045",
+        "course": "B.Tech · Computer Science",
+        "year": "3rd year",
+        "semester": "Semester 5",
+        "division": "B",
+        "target": 75
+      },
+      "attendanceRecords": [
+        {
+          "date": "2025-09-01",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-03",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-05",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-08",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-10",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-12",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-15",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-17",
+          "subjectId": "dsa",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-19",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-22",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-24",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-26",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-01",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-03",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-05",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-08",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-10",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-12",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-15",
+          "subjectId": "dbms",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-17",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-19",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-22",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-24",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-26",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-01",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-03",
+          "subjectId": "os",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-05",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-08",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-10",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-12",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-15",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-17",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-19",
+          "subjectId": "os",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-22",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-24",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-26",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-01",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-03",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-05",
+          "subjectId": "cn",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-08",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-10",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-12",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-15",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-17",
+          "subjectId": "cn",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-19",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-22",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-24",
+          "subjectId": "cn",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-26",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-01",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-03",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-05",
+          "subjectId": "math",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-08",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-10",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-12",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-15",
+          "subjectId": "math",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-17",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-19",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-22",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-24",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-26",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-01",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-03",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-05",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-08",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-10",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-12",
+          "subjectId": "se",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-15",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-17",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-19",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-22",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-24",
+          "subjectId": "se",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-26",
+          "subjectId": "se",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "loginId": "student06",
+      "password": "Campus@106",
+      "profile": {
+        "name": "Meera Nair",
+        "rollNumber": "CS23-046",
+        "course": "B.Tech · Computer Science",
+        "year": "3rd year",
+        "semester": "Semester 5",
+        "division": "C",
+        "target": 75
+      },
+      "attendanceRecords": [
+        {
+          "date": "2025-09-01",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-03",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-05",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-08",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-10",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-12",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-15",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-17",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-19",
+          "subjectId": "dsa",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-22",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-24",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-26",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-01",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-03",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-05",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-08",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-10",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-12",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-15",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-17",
+          "subjectId": "dbms",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-19",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-22",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-24",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-26",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-01",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-03",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-05",
+          "subjectId": "os",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-08",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-10",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-12",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-15",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-17",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-19",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-22",
+          "subjectId": "os",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-24",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-26",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-01",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-03",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-05",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-08",
+          "subjectId": "cn",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-10",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-12",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-15",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-17",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-19",
+          "subjectId": "cn",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-22",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-24",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-26",
+          "subjectId": "cn",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-01",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-03",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-05",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-08",
+          "subjectId": "math",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-10",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-12",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-15",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-17",
+          "subjectId": "math",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-19",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-22",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-24",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-26",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-01",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-03",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-05",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-08",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-10",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-12",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-15",
+          "subjectId": "se",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-17",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-19",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-22",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-24",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-26",
+          "subjectId": "se",
+          "status": "absent"
+        }
+      ]
+    },
+    {
+      "loginId": "student07",
+      "password": "Campus@107",
+      "profile": {
+        "name": "Arjun Mehta",
+        "rollNumber": "CS23-047",
+        "course": "B.Tech · Computer Science",
+        "year": "3rd year",
+        "semester": "Semester 5",
+        "division": "A",
+        "target": 75
+      },
+      "attendanceRecords": [
+        {
+          "date": "2025-09-01",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-03",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-05",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-08",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-10",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-12",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-15",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-17",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-19",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-22",
+          "subjectId": "dsa",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-24",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-26",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-01",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-03",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-05",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-08",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-10",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-12",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-15",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-17",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-19",
+          "subjectId": "dbms",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-22",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-24",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-26",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-01",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-03",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-05",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-08",
+          "subjectId": "os",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-10",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-12",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-15",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-17",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-19",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-22",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-24",
+          "subjectId": "os",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-26",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-01",
+          "subjectId": "cn",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-03",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-05",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-08",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-10",
+          "subjectId": "cn",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-12",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-15",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-17",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-19",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-22",
+          "subjectId": "cn",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-24",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-26",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-01",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-03",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-05",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-08",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-10",
+          "subjectId": "math",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-12",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-15",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-17",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-19",
+          "subjectId": "math",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-22",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-24",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-26",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-01",
+          "subjectId": "se",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-03",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-05",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-08",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-10",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-12",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-15",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-17",
+          "subjectId": "se",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-19",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-22",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-24",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-26",
+          "subjectId": "se",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "loginId": "student08",
+      "password": "Campus@108",
+      "profile": {
+        "name": "Diya Iyer",
+        "rollNumber": "CS23-048",
+        "course": "B.Tech · Computer Science",
+        "year": "3rd year",
+        "semester": "Semester 5",
+        "division": "B",
+        "target": 75
+      },
+      "attendanceRecords": [
+        {
+          "date": "2025-09-01",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-03",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-05",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-08",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-10",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-12",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-15",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-17",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-19",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-22",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-24",
+          "subjectId": "dsa",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-26",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-01",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-03",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-05",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-08",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-10",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-12",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-15",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-17",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-19",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-22",
+          "subjectId": "dbms",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-24",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-26",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-01",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-03",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-05",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-08",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-10",
+          "subjectId": "os",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-12",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-15",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-17",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-19",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-22",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-24",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-26",
+          "subjectId": "os",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-01",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-03",
+          "subjectId": "cn",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-05",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-08",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-10",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-12",
+          "subjectId": "cn",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-15",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-17",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-19",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-22",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-24",
+          "subjectId": "cn",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-26",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-01",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-03",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-05",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-08",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-10",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-12",
+          "subjectId": "math",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-15",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-17",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-19",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-22",
+          "subjectId": "math",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-24",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-26",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-01",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-03",
+          "subjectId": "se",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-05",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-08",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-10",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-12",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-15",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-17",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-19",
+          "subjectId": "se",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-22",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-24",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-26",
+          "subjectId": "se",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "loginId": "student09",
+      "password": "Campus@109",
+      "profile": {
+        "name": "Reyansh Gupta",
+        "rollNumber": "CS23-049",
+        "course": "B.Tech · Computer Science",
+        "year": "3rd year",
+        "semester": "Semester 5",
+        "division": "C",
+        "target": 75
+      },
+      "attendanceRecords": [
+        {
+          "date": "2025-09-01",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-03",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-05",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-08",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-10",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-12",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-15",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-17",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-19",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-22",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-24",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-26",
+          "subjectId": "dsa",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-01",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-03",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-05",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-08",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-10",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-12",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-15",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-17",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-19",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-22",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-24",
+          "subjectId": "dbms",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-26",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-01",
+          "subjectId": "os",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-03",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-05",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-08",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-10",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-12",
+          "subjectId": "os",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-15",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-17",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-19",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-22",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-24",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-26",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-01",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-03",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-05",
+          "subjectId": "cn",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-08",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-10",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-12",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-15",
+          "subjectId": "cn",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-17",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-19",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-22",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-24",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-26",
+          "subjectId": "cn",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-01",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-03",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-05",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-08",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-10",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-12",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-15",
+          "subjectId": "math",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-17",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-19",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-22",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-24",
+          "subjectId": "math",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-26",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-01",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-03",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-05",
+          "subjectId": "se",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-08",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-10",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-12",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-15",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-17",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-19",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-22",
+          "subjectId": "se",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-24",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-26",
+          "subjectId": "se",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "loginId": "student10",
+      "password": "Campus@110",
+      "profile": {
+        "name": "Sana Khan",
+        "rollNumber": "CS23-050",
+        "course": "B.Tech · Computer Science",
+        "year": "3rd year",
+        "semester": "Semester 5",
+        "division": "A",
+        "target": 75
+      },
+      "attendanceRecords": [
+        {
+          "date": "2025-09-01",
+          "subjectId": "dsa",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-03",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-05",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-08",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-10",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-12",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-15",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-17",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-19",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-22",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-24",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-26",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-01",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-03",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-05",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-08",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-10",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-12",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-15",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-17",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-19",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-22",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-24",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-26",
+          "subjectId": "dbms",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-01",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-03",
+          "subjectId": "os",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-05",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-08",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-10",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-12",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-15",
+          "subjectId": "os",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-17",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-19",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-22",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-24",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-26",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-01",
+          "subjectId": "cn",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-03",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-05",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-08",
+          "subjectId": "cn",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-10",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-12",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-15",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-17",
+          "subjectId": "cn",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-19",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-22",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-24",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-26",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-01",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-03",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-05",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-08",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-10",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-12",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-15",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-17",
+          "subjectId": "math",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-19",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-22",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-24",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-26",
+          "subjectId": "math",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-01",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-03",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-05",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-08",
+          "subjectId": "se",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-10",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-12",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-15",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-17",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-19",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-22",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-24",
+          "subjectId": "se",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-26",
+          "subjectId": "se",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "loginId": "student11",
+      "password": "Campus@111",
+      "profile": {
+        "name": "Advik Joshi",
+        "rollNumber": "CS23-051",
+        "course": "B.Tech · Computer Science",
+        "year": "3rd year",
+        "semester": "Semester 5",
+        "division": "B",
+        "target": 75
+      },
+      "attendanceRecords": [
+        {
+          "date": "2025-09-01",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-03",
+          "subjectId": "dsa",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-05",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-08",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-10",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-12",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-15",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-17",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-19",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-22",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-24",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-26",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-01",
+          "subjectId": "dbms",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-03",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-05",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-08",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-10",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-12",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-15",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-17",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-19",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-22",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-24",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-26",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-01",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-03",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-05",
+          "subjectId": "os",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-08",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-10",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-12",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-15",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-17",
+          "subjectId": "os",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-19",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-22",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-24",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-26",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-01",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-03",
+          "subjectId": "cn",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-05",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-08",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-10",
+          "subjectId": "cn",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-12",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-15",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-17",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-19",
+          "subjectId": "cn",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-22",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-24",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-26",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-01",
+          "subjectId": "math",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-03",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-05",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-08",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-10",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-12",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-15",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-17",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-19",
+          "subjectId": "math",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-22",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-24",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-26",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-01",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-03",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-05",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-08",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-10",
+          "subjectId": "se",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-12",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-15",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-17",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-19",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-22",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-24",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-26",
+          "subjectId": "se",
+          "status": "absent"
+        }
+      ]
+    },
+    {
+      "loginId": "student12",
+      "password": "Campus@112",
+      "profile": {
+        "name": "Kiara Das",
+        "rollNumber": "CS23-052",
+        "course": "B.Tech · Computer Science",
+        "year": "3rd year",
+        "semester": "Semester 5",
+        "division": "C",
+        "target": 75
+      },
+      "attendanceRecords": [
+        {
+          "date": "2025-09-01",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-03",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-05",
+          "subjectId": "dsa",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-08",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-10",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-12",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-15",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-17",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-19",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-22",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-24",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-26",
+          "subjectId": "dsa",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-01",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-03",
+          "subjectId": "dbms",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-05",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-08",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-10",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-12",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-15",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-17",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-19",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-22",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-24",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-26",
+          "subjectId": "dbms",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-01",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-03",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-05",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-08",
+          "subjectId": "os",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-10",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-12",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-15",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-17",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-19",
+          "subjectId": "os",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-22",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-24",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-26",
+          "subjectId": "os",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-01",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-03",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-05",
+          "subjectId": "cn",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-08",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-10",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-12",
+          "subjectId": "cn",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-15",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-17",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-19",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-22",
+          "subjectId": "cn",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-24",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-26",
+          "subjectId": "cn",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-01",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-03",
+          "subjectId": "math",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-05",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-08",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-10",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-12",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-15",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-17",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-19",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-22",
+          "subjectId": "math",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-24",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-26",
+          "subjectId": "math",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-01",
+          "subjectId": "se",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-03",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-05",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-08",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-10",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-12",
+          "subjectId": "se",
+          "status": "absent"
+        },
+        {
+          "date": "2025-09-15",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-17",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-19",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-22",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-24",
+          "subjectId": "se",
+          "status": "present"
+        },
+        {
+          "date": "2025-09-26",
+          "subjectId": "se",
+          "status": "present"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#172b43" />
+    <title>Subject details | Campusly</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/pages.css" />
+    <link rel="stylesheet" href="css/theme.css" />
+    <script src="js/student-pages.js" defer></script>
+  </head>
+  <body class="standalone-student-page">
+    <header class="topbar">
+      <a class="brand" href="index.html"
+        ><span class="brand-mark">C</span><span>campusly</span></a
+      >
+      <nav class="home-nav" aria-label="Main navigation">
+        <a class="home-link" href="index.html">Home</a
+        ><a class="home-link active" href="subjects.html">Subjects</a
+        ><a class="home-link" href="history.html">History</a
+        ><a class="home-link" href="planner.html">Planner</a>
+      </nav>
+      <div class="topbar-right">
+        <span class="term-pill"
+          ><span class="live-dot"></span> Current semester</span
+        ><a
+          class="avatar profile-link"
+          href="profile.html"
+          id="pageAvatar"
+          aria-label="Student details"
+          >—</a
+        ><button class="logout-button" id="pageLogout" type="button">
+          Log out
+        </button>
+      </div>
+    </header>
+    <main class="main-content">
+      <div class="page-wrap subject-detail-wrap">
+        <section class="welcome-row">
+          <div>
+            <div class="eyebrow">SUBJECT DETAILS</div>
+            <h1 id="subjectDetailName">Loading subject…</h1>
+            <p id="subjectDetailCode"></p>
+          </div>
+          <a class="button" href="subjects.html">← All subjects</a>
+        </section>
+        <section
+          class="subject-detail-summary"
+          id="subjectDetailSummary"
+        ></section>
+        <section class="panel subject-record-panel">
+          <div class="panel-heading">
+            <div>
+              <div class="eyebrow">CLASS-BY-CLASS</div>
+              <h2>Attendance records</h2>
+            </div>
+            <span class="record-count" id="subjectRecordCount">0 records</span>
+          </div>
+          <div class="history-table-wrap">
+            <table class="history-table" id="subjectRecordTable">
+              <thead>
+                <tr>
+                  <th>DATE</th>
+                  <th>ATTENDANCE STATUS</th>
+                </tr>
+              </thead>
+              <tbody id="subjectRecordBody"></tbody>
+            </table>
+            <div class="empty-state" id="subjectRecordsEmpty" hidden>
+              No attendance records are available for this subject.
+            </div>
+          </div>
+        </section>
+        <footer class="page-footer">
+          <span>Campusly student portal</span
+          ><a href="planner.html">Open attendance planner →</a>
+        </footer>
+      </div>
+    </main>
+  </body>
+</html>

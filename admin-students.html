@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Student management | Campusly</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css"><link rel="stylesheet" href="css/pages.css"><link rel="stylesheet" href="css/theme.css">
+<script src="js/admin-data.js" defer></script><script src="js/admin-students.js" defer></script>
+</head><body class="admin-page">
+<header class="topbar"><a class="brand" href="admin.html"><span class="brand-mark">C</span><span>campusly <small class="brand-admin-label">ADMIN</small></span></a>
+<nav class="admin-nav" aria-label="Admin navigation"><a class="admin-nav-link" href="admin.html">Overview</a><a class="admin-nav-link active" href="admin-students.html">Students</a><a class="admin-nav-link" href="admin-attendance.html">Attendance</a></nav>
+<div class="admin-header-actions"><a class="logout-button" href="index.html">Student portal</a><button class="logout-button" id="adminLogout" type="button">Log out</button></div></header>
+<main class="admin-main" id="adminContent" hidden>
+<div class="admin-page-title"><div><div class="eyebrow">ACCOUNT MANAGEMENT</div><h1>Students</h1><p>Create student logins, update profiles, and review account details.</p></div><a class="button" href="admin-attendance.html">Attendance →</a></div>
+<section class="admin-panel"><div class="admin-section-title"><div><div class="eyebrow">STUDENT PROFILE</div><h2 id="studentFormTitle">Add a student</h2></div><div class="admin-panel-icon">＋</div></div>
+<form class="admin-form student-form" id="studentForm"><input type="hidden" id="editingLoginId">
+<div class="student-field"><label for="studentName">Student name</label><input id="studentName" required maxlength="80" placeholder="e.g. Aarav Sharma"></div>
+<div class="student-field"><label for="studentRoll">Roll number</label><input id="studentRoll" required maxlength="30" placeholder="e.g. CS23-041"></div>
+<div class="student-field"><label for="studentLoginId">Student login ID</label><input id="studentLoginId" required maxlength="40" autocomplete="off" placeholder="Choose a unique login ID"></div>
+<div class="student-field"><label for="studentPassword">Student password</label><input id="studentPassword" type="password" required minlength="4" maxlength="80" autocomplete="off" placeholder="Choose a password"></div>
+<div class="student-field full-field"><label for="studentCourse">Course</label><input id="studentCourse" required value="B.Tech · Computer Science"></div>
+<div class="admin-form-row full-field"><div><label for="studentYear">Year</label><input id="studentYear" required value="3rd year"></div><div><label for="studentSemester">Semester</label><input id="studentSemester" required value="Semester 5"></div></div>
+<div class="student-field"><label for="studentDivision">Division</label><input id="studentDivision" required value="A"></div>
+<div class="admin-form-actions full-field"><button class="login-submit" id="saveStudent" type="submit">Create student <span>＋</span></button><button class="logout-button" id="cancelEdit" type="button" hidden>Cancel edit</button></div></form>
+<p class="admin-note">Set a unique student login ID and password. The student will use these details on the portal login page.</p></section>
+<section class="admin-panel"><div class="admin-page-title list-heading"><div><div class="eyebrow">STUDENT DIRECTORY</div><h2>Students and login details</h2></div><input class="admin-search" id="studentSearch" type="search" placeholder="Search students…" aria-label="Search students"></div><div class="admin-table-wrap"><table class="admin-table"><thead><tr><th>STUDENT</th><th>ROLL NUMBER</th><th>LOGIN ID</th><th>PASSWORD</th><th>ATTENDANCE</th><th>ACTIONS</th></tr></thead><tbody id="studentTableBody"></tbody></table></div><p class="admin-note" id="emptyStudents" hidden>No students match your search.</p></section>
+<p class="admin-storage-note"><strong>Storage:</strong> Changes are saved to this browser's local storage. Export a JSON backup from Overview.</p>
+</main><script src="js/admin-shell.js" defer></script></body></html>
+

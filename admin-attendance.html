@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Attendance management | Campusly</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/pages.css" />
+    <link rel="stylesheet" href="css/theme.css" />
+    <script src="js/admin-data.js" defer></script>
+    <script src="js/admin-attendance.js" defer></script>
+  </head>
+  <body class="admin-page">
+    <header class="topbar">
+      <a class="brand" href="admin.html"
+        ><span class="brand-mark">C</span
+        ><span>campusly <small class="brand-admin-label">ADMIN</small></span></a
+      >
+      <nav class="admin-nav" aria-label="Admin navigation">
+        <a class="admin-nav-link" href="admin.html">Overview</a
+        ><a class="admin-nav-link" href="admin-students.html">Students</a
+        ><a class="admin-nav-link active" href="admin-attendance.html"
+          >Attendance</a
+        >
+      </nav>
+      <div class="admin-header-actions">
+        <a class="logout-button" href="index.html">Student portal</a
+        ><button class="logout-button" id="adminLogout" type="button">
+          Log out
+        </button>
+      </div>
+    </header>
+    <main class="admin-main" id="adminContent" hidden>
+      <div class="admin-page-title">
+        <div>
+          <div class="eyebrow">RECORD MANAGEMENT</div>
+          <h1>Attendance</h1>
+          <p>
+            Add and correct class attendance records by student, subject, and
+            date.
+          </p>
+        </div>
+        <a class="button" href="admin-students.html">Manage students →</a>
+      </div>
+      <div class="admin-grid admin-attendance-grid">
+        <section class="admin-panel">
+          <div class="admin-section-title">
+            <div>
+              <div class="eyebrow">RECORD EDITOR</div>
+              <h2 id="attendanceFormTitle">Add attendance</h2>
+            </div>
+            <div class="admin-panel-icon">＋</div>
+          </div>
+          <form class="admin-form" id="attendanceForm">
+            <input type="hidden" id="editingRecordIndex" /><label
+              for="recordStudent"
+              >Student</label
+            ><select id="recordStudent" required></select
+            ><label for="recordSubject">Subject</label
+            ><select id="recordSubject" required></select
+            ><label for="recordDate">Class date</label
+            ><input id="recordDate" type="date" required /><label
+              for="recordStatus"
+              >Attendance status</label
+            ><select id="recordStatus">
+              <option value="present">Present</option>
+              <option value="absent">Absent</option>
+            </select>
+            <div class="admin-form-actions">
+              <button class="login-submit" type="submit" id="saveRecord">
+                Save attendance <span>✓</span></button
+              ><button
+                class="logout-button"
+                id="cancelRecordEdit"
+                type="button"
+                hidden
+              >
+                Cancel edit
+              </button>
+            </div>
+          </form>
+          <p class="admin-note">
+            Select a student to review and manage their attendance history
+            below.
+          </p>
+        </section>
+        <section class="admin-panel">
+          <div class="admin-section-title">
+            <div>
+              <div class="eyebrow">RECORD KEEPING</div>
+              <h2>Accurate attendance</h2>
+            </div>
+            <div class="admin-panel-icon">✓</div>
+          </div>
+          <div class="admin-guide-list">
+            <p>
+              <span>01</span>Each class entry updates the student's attendance
+              totals.
+            </p>
+            <p>
+              <span>02</span>Use the same subject and date to find a record
+              quickly.
+            </p>
+            <p>
+              <span>03</span>Correct mistakes by editing or deleting the
+              matching entry.
+            </p>
+          </div>
+          <div class="admin-record-summary">
+            <strong id="selectedRecordCount">0</strong
+            ><span>records for selected student</span>
+          </div>
+        </section>
+      </div>
+      <section class="admin-panel">
+        <div class="admin-section-title list-heading">
+          <div>
+            <div class="eyebrow">SELECTED STUDENT</div>
+            <h2 id="recordsHeading">Attendance records</h2>
+          </div>
+        </div>
+        <div class="admin-table-wrap">
+          <table class="admin-table" id="recordsTable">
+            <thead>
+              <tr>
+                <th>DATE</th>
+                <th>SUBJECT</th>
+                <th>STATUS</th>
+                <th>ACTIONS</th>
+              </tr>
+            </thead>
+            <tbody id="recordTableBody"></tbody>
+          </table>
+        </div>
+        <p class="admin-note" id="emptyRecords" hidden>
+          No attendance records for this student yet. Use the form above to add
+          one.
+        </p>
+      </section>
+      <p class="admin-storage-note">
+        <strong>Storage:</strong> Changes are saved in this browser's local
+        storage and used by the student portal.
+      </p>
+    </main>
+    <script src="js/admin-shell.js" defer></script>
+  </body>
+</html>

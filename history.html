@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#172b43" />
+    <title>Attendance history | Campusly</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/pages.css" />
+    <link rel="stylesheet" href="css/theme.css" />
+    <script src="js/student-pages.js" defer></script>
+  </head>
+  <body class="standalone-student-page">
+    <header class="topbar">
+      <a class="brand" href="index.html"
+        ><span class="brand-mark">C</span><span>campusly</span></a
+      >
+      <nav class="home-nav" aria-label="Main navigation">
+        <a class="home-link" href="index.html">Home</a
+        ><a class="home-link" href="subjects.html">Subjects</a
+        ><a class="home-link active" href="history.html">History</a
+        ><a class="home-link" href="planner.html">Planner</a>
+      </nav>
+      <div class="topbar-right">
+        <span class="term-pill"
+          ><span class="live-dot"></span> Current semester</span
+        ><a
+          class="avatar profile-link"
+          href="profile.html"
+          id="pageAvatar"
+          aria-label="Student details"
+          >—</a
+        ><button class="logout-button" id="pageLogout" type="button">
+          Log out
+        </button>
+      </div>
+    </header>
+    <main class="main-content">
+      <div class="page-wrap">
+        <section class="welcome-row">
+          <div>
+            <div class="eyebrow">CLASS-BY-CLASS RECORD</div>
+            <h1>Attendance history</h1>
+            <p id="pageStudentLine">
+              Review your recorded attendance by date, subject, and status.
+            </p>
+          </div>
+          <a class="button" href="planner.html">Plan your attendance →</a>
+        </section>
+        <section class="panel standalone-history-panel">
+          <div class="panel-heading">
+            <div>
+              <div class="eyebrow">YOUR RECORDS</div>
+              <h2>Class history</h2>
+            </div>
+            <span class="record-count" id="pageRecordCount">0 records</span>
+          </div>
+          <div class="filter-row">
+            <label class="select-wrap"
+              ><span class="sr-only">Filter by subject</span
+              ><select id="pageSubjectFilter">
+                <option value="all">All subjects</option></select
+              ><span>⌄</span></label
+            ><label class="select-wrap"
+              ><span class="sr-only">Filter by status</span
+              ><select id="pageStatusFilter">
+                <option value="all">All statuses</option>
+                <option value="present">Present</option>
+                <option value="absent">Absent</option></select
+              ><span>⌄</span></label
+            ><button
+              class="button button-quiet"
+              id="resetHistoryFilters"
+              type="button"
+            >
+              Reset filters
+            </button>
+          </div>
+          <div class="history-table-wrap">
+            <table class="history-table">
+              <thead>
+                <tr>
+                  <th>DATE</th>
+                  <th>SUBJECT</th>
+                  <th>STATUS</th>
+                </tr>
+              </thead>
+              <tbody id="pageHistoryBody"></tbody>
+            </table>
+            <div class="empty-state" id="pageHistoryEmpty" hidden>
+              No attendance records match these filters.
+            </div>
+          </div>
+          <div class="table-footer">
+            <span id="pageHistorySummary"></span
+            ><button
+              class="button button-quiet"
+              id="downloadHistory"
+              type="button"
+            >
+              Download CSV ↓
+            </button>
+          </div>
+        </section>
+        <footer class="page-footer">
+          <span>Campusly student portal</span
+          ><a href="subjects.html">See subject breakdown →</a>
+        </footer>
+      </div>
+    </main>
+  </body>
+</html>

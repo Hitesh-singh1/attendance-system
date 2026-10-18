@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Admin overview | Campusly</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/pages.css">
+  <link rel="stylesheet" href="css/theme.css">
+  <script src="js/admin-data.js" defer></script>
+  <script src="js/admin.js" defer></script>
+</head>
+<body class="admin-page">
+  <header class="topbar">
+    <a class="brand" href="admin.html" aria-label="Campusly admin home"><span class="brand-mark">C</span><span>campusly <small class="brand-admin-label">ADMIN</small></span></a>
+    <nav class="admin-nav" id="adminNav" aria-label="Admin navigation" hidden>
+      <a class="admin-nav-link active" href="admin.html">Overview</a>
+      <a class="admin-nav-link" href="admin-students.html">Students</a>
+      <a class="admin-nav-link" href="admin-attendance.html">Attendance</a>
+    </nav>
+    <div class="admin-header-actions">
+      <a class="logout-button" href="index.html">Student portal</a>
+      <button class="logout-button" id="adminLogout" type="button" hidden>Log out</button>
+    </div>
+  </header>
+
+  <main class="admin-main">
+    <section class="admin-login-card" id="adminLoginView">
+      <div class="admin-badge">✦</div>
+      <div class="eyebrow">CAMPUSLY ADMINISTRATION</div>
+      <h1>Administrator login</h1>
+      <p>Sign in to manage student accounts and attendance.</p>
+      <form id="adminLoginForm">
+        <label for="adminLoginId">Admin ID</label>
+        <input id="adminLoginId" value="admin" autocomplete="username" required>
+        <label for="adminLoginPassword">Password</label>
+        <input id="adminLoginPassword" type="password" value="Admin@123" autocomplete="current-password" required>
+        <div class="admin-credentials">Demo admin account: <strong>admin</strong> / <strong>Admin@123</strong></div>
+        <button class="login-submit" type="submit">Open admin console <span>↗</span></button>
+        <p class="admin-error" id="adminLoginError" role="alert" hidden>Admin ID or password is incorrect.</p>
+        <p class="admin-error" id="adminDataError" role="alert" hidden></p>
+      </form>
+      <small>This static demo does not provide production authentication.</small>
+    </section>
+
+    <section class="admin-console" id="adminConsole" hidden>
+      <div class="admin-page-title">
+        <div><div class="eyebrow">CAMPUSLY ADMINISTRATION</div><h1>Admin overview</h1><p>Choose an area to manage.</p></div>
+        <div class="admin-overview-actions"><button class="button" id="resetData" type="button">↺ Reset data</button><button class="button" id="exportJson" type="button">↓ Export JSON</button></div>
+      </div>
+      <div class="admin-stats">
+        <div class="admin-stat-card"><span>STUDENT ACCOUNTS</span><strong id="studentTotal">0</strong></div>
+        <div class="admin-stat-card"><span>SUBJECTS</span><strong id="subjectTotal">0</strong></div>
+        <div class="admin-stat-card"><span>ATTENDANCE RECORDS</span><strong id="recordTotal">0</strong></div>
+      </div>
+      <div class="admin-page-cards">
+        <a class="admin-page-card" href="admin-students.html"><span class="admin-card-orb">01</span><span class="eyebrow">ACCOUNT MANAGEMENT</span><h2>Manage students</h2><p>Create student accounts, update profile details, review login credentials, and remove accounts.</p><strong>Open student management <span>→</span></strong></a>
+        <a class="admin-page-card" href="admin-attendance.html"><span class="admin-card-orb cyan-orb">02</span><span class="eyebrow">RECORD MANAGEMENT</span><h2>Manage attendance</h2><p>Add, edit, or remove attendance entries by student, subject, class date, and status.</p><strong>Open attendance records <span>→</span></strong></a>
+      </div>
+      <p class="admin-storage-note"><strong>Storage:</strong> Changes are saved in this browser's local storage. Export the JSON file to back up your updates.</p>
+    </section>
+  </main>
+</body>
+</html>
+

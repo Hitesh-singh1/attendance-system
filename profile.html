@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Student details | Campusly</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/pages.css">
+  <link rel="stylesheet" href="css/theme.css">
+  <script src="js/secondary-pages.js" defer></script>
+</head>
+<body class="detail-page">
+  <header class="topbar">
+    <a class="brand" href="index.html" aria-label="Campusly home"><span class="brand-mark">C</span><span>campusly</span></a>
+    <nav class="home-nav" aria-label="Home navigation">
+      <a class="home-link" href="index.html">Home</a>
+      <a class="home-link" href="subjects.html">Subjects</a>
+      <a class="home-link" href="history.html">History</a>
+      <a class="home-link" href="planner.html">Planner</a>
+    </nav>
+    <a class="logout-button" href="index.html">Back to dashboard</a>
+  </header>
+  <main class="details-wrap">
+    <a class="back-link" href="index.html">← Back to attendance</a>
+    <section class="detail-hero">
+      <div class="detail-avatar" id="profileInitials">—</div>
+      <div>
+        <span class="eyebrow">STUDENT PROFILE · DEMO DATA</span>
+        <h1 id="profileName">Loading student details…</h1>
+        <p id="profileSummary"></p>
+      </div>
+      <span class="profile-state"><i></i> Active student</span>
+    </section>
+    <div class="detail-columns">
+      <section class="detail-card">
+        <div class="eyebrow">ACADEMIC DETAILS</div>
+        <h2>Your student information</h2>
+        <div class="detail-list">
+          <div><span>Full name</span><strong id="profileFullName">—</strong></div>
+          <div><span>Roll number</span><strong id="profileRollNumber">—</strong></div>
+          <div><span>Course</span><strong id="profileCourse">—</strong></div>
+          <div><span>Year</span><strong id="profileYear">—</strong></div>
+          <div><span>Semester</span><strong id="profileSemester">—</strong></div>
+          <div><span>Division</span><strong id="profileDivision">—</strong></div>
+          <div><span>Attendance target</span><strong id="profileTarget">75% minimum</strong></div>
+        </div>
+      </section>
+      <section class="detail-card progress-detail">
+        <div class="eyebrow">SEMESTER SNAPSHOT</div>
+        <h2>Attendance overview</h2>
+        <div class="detail-stat"><strong id="profilePercent">—</strong><span>Overall attendance</span></div>
+        <div class="detail-progress"><span id="profileProgress" style="width:0"></span></div>
+        <div class="detail-stat-row">
+          <div><strong id="profileConducted">—</strong><span>Classes conducted</span></div>
+          <div><strong id="profileAttended">—</strong><span>Classes attended</span></div>
+          <div><strong id="profileMissed">—</strong><span>Classes missed</span></div>
+        </div>
+        <a class="page-action" href="subjects.html">Open attendance dashboard <span>→</span></a>
+      </section>
+    </div>
+    <p class="page-note">This profile and its attendance numbers are demonstration data.</p>
+  </main>
+</body>
+</html>
+

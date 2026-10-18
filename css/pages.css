@@ -1,0 +1,67 @@
+/* Layout and components used by the student profile page. */
+.detail-page { min-height: 100vh; background: #f4f6f8; }
+.detail-page .topbar { position: sticky; }
+.detail-page .logout-button { display: inline-flex; align-items: center; }
+.details-wrap { max-width: 950px; margin: 0 auto; padding: 35px 28px 60px; }
+.back-link { display: inline-block; margin-bottom: 20px; font-size: 11px; font-weight: 600; transition: color .2s, transform .2s; }
+.back-link:hover { transform: translateX(-3px); }
+.detail-hero {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding: 25px;
+  border: 1px solid #e0e5eb;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0 4px 14px rgba(31, 48, 69, .045);
+}
+.detail-avatar {
+  display: grid;
+  place-items: center;
+  flex: none;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: #eaf0f5;
+  color: #315c86;
+  font: 800 18px Manrope, sans-serif;
+}
+.detail-hero h1 { margin: 5px 0; font: 800 26px Manrope, sans-serif; letter-spacing: -.8px; }
+.detail-hero p { margin: 0; font-size: 11px; }
+.profile-state { margin-left: auto; padding: 8px 11px; border-radius: 20px; font-size: 9px; font-weight: 700; }
+.profile-state i { display: inline-block; width: 6px; height: 6px; margin-right: 5px; border-radius: 50%; }
+.detail-columns { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-top: 17px; }
+.detail-card { padding: 22px; border: 1px solid #e0e5eb; border-radius: 15px; background: #fff; box-shadow: 0 4px 14px rgba(31, 48, 69, .045); }
+.detail-card h2 { margin: 6px 0 17px; font: 700 16px Manrope, sans-serif; }
+.detail-list > div { display: flex; justify-content: space-between; align-items: center; gap: 15px; padding: 12px 0; border-bottom: 1px solid #e0e5eb; }
+.detail-list > div:last-child { border-bottom: 0; }
+.detail-list span, .detail-stat-row span { font-size: 10px; }
+.detail-list strong { font-size: 10px; text-align: right; }
+.detail-stat { display: flex; align-items: baseline; gap: 8px; margin-top: 18px; }
+.detail-stat strong { font: 800 38px Manrope, sans-serif; }
+.detail-stat span { font-size: 10px; }
+.detail-progress { height: 8px; margin: 11px 0 22px; overflow: hidden; border-radius: 8px; background: #e4e9ee; }
+.detail-progress span { display: block; width: 0; height: 100%; border-radius: inherit; background: #2463a6; }
+.detail-stat-row { display: grid; grid-template-columns: repeat(3, 1fr); padding-top: 18px; border-top: 1px solid #e0e5eb; }
+.detail-stat-row strong, .detail-stat-row span { display: block; }
+.detail-stat-row strong { margin-bottom: 4px; font: 700 18px Manrope, sans-serif; }
+.detail-stat-row span { font-size: 9px; }
+.page-action { display: inline-block; font-size: 10px; font-weight: 700; transition: transform .2s; }
+.page-action span { margin-left: 4px; font-size: 14px; }
+.page-action:hover { transform: translateX(3px); }
+.progress-detail .page-action { margin-top: 24px; }
+.page-note { margin-top: 18px; font-size: 9px; text-align: center; }
+.detail-page .brand { flex: none; }
+.detail-page .home-nav { margin-right: auto; }
+@media (max-width: 600px) {
+  .details-wrap { padding: 24px 15px 40px; }
+  .detail-page .topbar { height: auto; min-height: 66px; padding: 10px 14px; gap: 5px; }
+  .detail-page .topbar .home-nav { order: 3; width: 100%; justify-content: space-around; margin: 2px 0 0; }
+  .detail-page .topbar .logout-button { padding: 7px 10px; font-size: 9px; }
+  .detail-hero { flex-wrap: wrap; gap: 13px; padding: 18px; }
+  .detail-avatar { width: 52px; height: 52px; }
+  .detail-hero h1 { font-size: 21px; }
+  .profile-state { margin-left: 0; }
+  .detail-columns { grid-template-columns: 1fr; }
+  .detail-card { padding: 18px; }
+}

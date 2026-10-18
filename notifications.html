@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Notifications | Campusly</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/pages.css" />
+    <link rel="stylesheet" href="css/theme.css" />
+    <script src="js/secondary-pages.js" defer></script>
+  </head>
+  <body class="detail-page">
+    <header class="topbar">
+      <a class="brand" href="index.html" aria-label="Campusly home"
+        ><span class="brand-mark">C</span><span>campusly</span></a
+      >
+      <nav class="home-nav" aria-label="Home navigation">
+        <a class="home-link" href="index.html">Home</a>
+        <a class="home-link" href="index.html#subjects">Subjects</a>
+        <a class="home-link" href="index.html#history">History</a>
+        <a class="home-link" href="index.html#calculator">Planner</a>
+      </nav>
+      <a class="logout-button" href="index.html">Back to dashboard</a>
+    </header>
+    <main class="details-wrap">
+      <a class="back-link" href="index.html">← Back to attendance</a>
+      <section class="notification-heading">
+        <div class="notification-big-icon">♧</div>
+        <div>
+          <span class="eyebrow">STUDENT PORTAL · DEMO DATA</span>
+          <h1>Notifications</h1>
+          <p>Updates related to your attendance and classes.</p>
+        </div>
+      </section>
+      <section
+        class="detail-card notification-card"
+        id="notificationList"
+        aria-live="polite"
+      >
+        <div class="empty-state">Loading your notifications…</div>
+      </section>
+      <div class="notification-footer">
+        <span>Updates are generated from the selected student's records.</span>
+        <a class="page-action" href="index.html"
+          >Return to dashboard <span>→</span></a
+        >
+      </div>
+    </main>
+  </body>
+</html>
